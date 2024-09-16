@@ -6,7 +6,8 @@ export const loginPage = () => {
     "items-center",
     "justify-center",
     "h-screen",
-    "bg-gray-200"
+    "bg-gray-200",
+    "px-4",
   );
 
   const form = document.createElement("form");
@@ -19,12 +20,13 @@ export const loginPage = () => {
     "bg-white",
     "p-8",
     "rounded",
-    "shadow-md"
+    "shadow-md",
+
   );
 
   const title = document.createElement("h2");
 
-  title.classList.add("text-2xl", "font-bold", "mb-4");
+  title.classList.add("text-2xl", "font-bold", "mb-4", "text-center", "text-blue-500");
   title.textContent = "Login form";
 
   const usernameInput = document.createElement("input");
