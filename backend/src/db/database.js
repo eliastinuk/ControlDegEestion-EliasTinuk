@@ -1,0 +1,152 @@
+export const database = {
+  user: [
+    {
+      id: 1,
+      username: "admin",
+      password: "admin",
+    },
+    {
+      id: 2,
+      username: "user",
+      password: "user",
+    },
+    {
+      id: 3,
+      username: "guest",
+      password: "guest",
+    },
+    {
+      id: 4,
+      username: "guest2",
+      password: "guest2",
+    },
+  ],
+  todos: [
+    {
+      id: 1,
+      title: "Todo 1",
+      completed: false,
+      owner: 1,
+    },
+    {
+      id: 2,
+      title: "Todo 2",
+      completed: true,
+      owner: 2,
+    },
+    {
+      id: 3,
+      title: "Todo 3",
+      completed: false,
+      owner: 3,
+    },
+    {
+      id: 4,
+      title: "Todo 4",
+      completed: true,
+      owner: 4,
+    },
+    {
+      id: 5,
+      title: "Todo 5",
+      completed: false,
+      owner: 1,
+    },
+    {
+      id: 6,
+      title: "Todo 6",
+      completed: true,
+      owner: 2,
+    },
+    {
+      id: 7,
+      title: "Todo 7",
+      completed: false,
+      owner: 3,
+    },
+    {
+      id: 8,
+      title: "Todo 8",
+      completed: true,
+      owner: 4,
+    },
+    {
+      id: 9,
+      title: "Todo 9",
+      completed: false,
+      owner: 1,
+    },
+    {
+      id: 10,
+      title: "Todo 10",
+      completed: true,
+      owner: 2,
+    },
+    {
+      id: 11,
+      title: "Todo 11",
+      completed: false,
+      owner: 3,
+    },
+    {
+      id: 12,
+      title: "Todo 12",
+      completed: true,
+      owner: 4,
+    },
+    {
+      id: 13,
+      title: "Todo 13",
+      completed: false,
+      owner: 1,
+    },
+    {
+      id: 14,
+      title: "Todo 14",
+      completed: true,
+      owner: 2,
+    },
+    {
+      id: 15,
+      title: "Todo 15",
+      completed: false,
+      owner: 3,
+    },
+    {
+      id: 16,
+      title: "Todo 16",
+      completed: true,
+      owner: 4,
+    },
+    {
+      id: 17,
+      title: "Todo 17",
+      completed: false,
+      owner: 1,
+    },
+    {
+      id: 18,
+      title: "Todo 18",
+      completed: true,
+      owner: 2,
+    },
+    {
+      id: 19,
+      title: "Todo 19",
+      completed: false,
+      owner: 3,
+    },
+    {
+      id: 20,
+      title: "Todo 20",
+      completed: true,
+      owner: 4,
+    },
+    {
+      id: 21,
+      title: "Todo 21",
+      completed: false,
+      owner: 1,
+    },
+  ],
+};
